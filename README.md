@@ -44,4 +44,4 @@ let third = BigInteger(hexadecimalAsString: "FF", isNegative: true)
 ## functions
 
 for the BigInteger class a cupple of functions are available (or will be created).
-for further informations take a look at the [FUNCTIONS.md](https://github.com/NHoeller/swiftBigInteger/edit/master/FUNCTIONS.md)
+for further informations take a look at the [FUNCTIONS.md](https://github.com/NHoeller/swiftBigInteger/blob/master/FUNCTIONS.md)
