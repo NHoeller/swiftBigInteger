@@ -45,3 +45,13 @@ let third = BigInteger(hexadecimalAsString: "FF", isNegative: true)
 
 for the BigInteger class a cupple of functions are available (or will be created).
 for further informations take a look at the [FUNCTIONS.md](https://github.com/NHoeller/swiftBigInteger/blob/master/FUNCTIONS.md)
+
+## features
+
+this class will automically convert different types of BigIntegers to be compatible.
+```swift
+let varName1 = BigInteger(decimalAsString: "65535", bitSize: BigInteger.BitSizes.Int8)
+// creates a BigInteger [255,255]
+let varName2 = BigInteger(decimalAsString: "65535", bitSize: BigInteger.BitSizes.Int32)
+// creates a BigInteger [65535]
+varName1.isEqual(varName2) // will result true
