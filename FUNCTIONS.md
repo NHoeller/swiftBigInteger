@@ -2,7 +2,9 @@
 
 ## implemented
 
-### isEqual
+### isEqual [[Source](https://github.com/NHoeller/swiftBigInteger/blob/master/BigInteger/Functions/isEqualTo.swift)]
+- [ ] add type conversion
+
 > BigInteger.isEqual() -> Bool
 
 ```swift
@@ -11,7 +13,8 @@ varName.isEqual(BigInteger("1")) // returns true
 varName.isEqual(BigInteger("2")) // returns false
 ```
 
-### isSmallerThan
+### isSmallerThan [[Source](https://github.com/NHoeller/swiftBigInteger/blob/master/BigInteger/Functions/isSmallerThan.swift)]
+- [ ] add type conversion
 > BigInteger.isSmallerThan(compareAgainst: BigInteger) -> Bool
 
 ```swift
@@ -21,7 +24,8 @@ varName.isSmallerThan(compareAgainst: BigInteger("1")) // returns false
 varName.isSmallerThan(compareAgainst: BigInteger("2")) // returns true
 ```
 
-### isGreaterThan
+### isGreaterThan [[Source](https://github.com/NHoeller/swiftBigInteger/blob/master/BigInteger/Functions/isGreaterThan.swift)]
+- [ ] add type conversion
 > BigInteger.isGreaterThan(compareAgainst: BigInteger) -> Bool
 
 ```swift
@@ -31,7 +35,7 @@ varName.isGreaterThan(compareAgainst: BigInteger("1")) // returns false
 varName.isGreaterThan(compareAgainst: BigInteger("2")) // returns false
 ```
 
-### isPositive
+### isPositive [[Source](https://github.com/NHoeller/swiftBigInteger/blob/master/BigInteger/Functions/isPositive.swift)]
 > BigInteger.isPositive() -> Bool
 
 ```swift
@@ -43,7 +47,7 @@ let varName3 = BigInteger("1", isNegative: true)
 varName3.isPositive() // returns false
 ```
 
-### isNegative
+### isNegative [[Source](https://github.com/NHoeller/swiftBigInteger/blob/master/BigInteger/Functions/isNegative.swift)]
 > BigInteger.isNegative() -> Bool
 
 ```swift
@@ -55,7 +59,7 @@ let varName3 = BigInteger("1")
 varName3.isNegative() // returns false
 ```
 
-### isZero
+### isZero [[Source](https://github.com/NHoeller/swiftBigInteger/blob/master/BigInteger/Functions/isZero.swift)]
 > BigInteger.isZero() -> Bool
 
 ```swift
