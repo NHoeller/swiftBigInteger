@@ -48,6 +48,7 @@ for further informations take a look at the [FUNCTIONS.md](https://github.com/NH
 
 ## features
 
+### type conversion
 this class will automically convert different types of BigIntegers to be compatible.
 ```swift
 let varName1 = BigInteger(decimalAsString: "65535", bitSize: BigInteger.BitSizes.Int8)
