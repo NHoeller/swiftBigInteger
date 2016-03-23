@@ -7,7 +7,9 @@ extension BigInteger {
         // check sign
         if self.sign == 1 { return true }
         
-        // if not negative return false
+        // if not positive return false
         return false
+
     }
+
 }
