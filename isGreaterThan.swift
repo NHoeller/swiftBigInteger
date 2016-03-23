@@ -2,7 +2,7 @@ import Foundation
 
 extension BigInteger {
 
-    public func greaterThan(compareAgainst: BigInteger) -> Bool {
+    public func isGreaterThan(compareAgainst: BigInteger) -> Bool {
 
         // test for sign
         if self.sign > compareAgainst.sign { return true }
