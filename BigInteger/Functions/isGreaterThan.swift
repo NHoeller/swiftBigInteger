@@ -15,10 +15,10 @@ extension BigInteger {
         for i in 0 ..< self.integerAsArray.count {
         
             // if element is greater comparison is completed
-            if self.intgerAsArray[i] > compareAgainst.integerAsArray[i] { return true }
+            if self.integerAsArray[i] > compareAgainst.integerAsArray[i] { return true }
             
             // if element is smaller comparison is also completed
-            if self.intgerAsArray[i] < compareAgainst.integerAsArray[i] { return false }
+            if self.integerAsArray[i] < compareAgainst.integerAsArray[i] { return false }
             
         }
         
